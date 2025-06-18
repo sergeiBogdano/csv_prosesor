@@ -5,7 +5,6 @@ from typing import List, Dict, Union
 def convert_value(value: str) -> Union[str, int, float]:
     """
     Преобразует строку к int или float, если возможно.
-    В противном случае возвращает строку.
     """
     value = value.strip()
     try:
